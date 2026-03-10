@@ -1,0 +1,206 @@
+{
+    "name": "Rack",
+    "description": "ARCS Rack #1",
+    "properties": {
+        "type": "Rack",
+        "dimensions_m": {
+            "width": 52.0,
+            "height": 90.0,
+            "depth": 52.0
+        }
+    },
+    "children": {
+        "Chassis24": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -43.125,
+                "z": 0
+            }
+        },
+        "Chassis23": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -39.375,
+                "z": 0
+            }
+        },
+        "Chassis22": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -35.625,
+                "z": 0
+            }
+        },
+        "Chassis21": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -31.875,
+                "z": 0
+            }
+        },
+        "Chassis20": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -28.125,
+                "z": 0
+            }
+        },
+        "Chassis19": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -24.375,
+                "z": 0
+            }
+        },
+        "Chassis18": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -20.625,
+                "z": 0
+            }
+        },
+        "Chassis17": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -16.875,
+                "z": 0
+            }
+        },
+        "Chassis16": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -13.125,
+                "z": 0
+            }
+        },
+        "Chassis15": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -9.375,
+                "z": 0
+            }
+        },
+        "Chassis14": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -5.625,
+                "z": 0
+            }
+        },
+        "Chassis13": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": -1.875,
+                "z": 0
+            }
+        },
+        "Chassis12": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 1.875,
+                "z": 0
+            }
+        },
+        "Chassis11": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 5.625,
+                "z": 0
+            }
+        },
+        "Chassis10": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 9.375,
+                "z": 0
+            }
+        },
+        "Chassis09": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 13.125,
+                "z": 0
+            }
+        },
+        "Chassis08": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 16.875,
+                "z": 0
+            }
+        },
+        "Chassis07": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 20.625,
+                "z": 0
+            }
+        },
+        "Chassis06": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 24.375,
+                "z": 0
+            }
+        },
+        "Chassis05": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 28.125,
+                "z": 0
+            }
+        },
+        "Chassis04": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 31.875,
+                "z": 0
+            }
+        },
+        "Chassis03": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 35.625,
+                "z": 0
+            }
+        },
+        "Chassis02": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 39.375,
+                "z": 0
+            }
+        },
+        "Chassis01": {
+            "file": "Chassis.json",
+            "position_m": {
+                "x": 0,
+                "y": 43.125,
+                "z": 0
+            }
+        }
+    }
+}

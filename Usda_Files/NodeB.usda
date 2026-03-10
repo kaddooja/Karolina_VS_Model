@@ -1,0 +1,104 @@
+#usda 1.0
+(
+    defaultPrim = "NodeB"
+)
+
+def Xform "NodeB" (
+    variants = {
+        string mesh = "default"
+    }
+    prepend variantSets = "mesh"
+)
+{
+    over "mesh" (
+        variants = {
+            string material = "default"
+        }
+        prepend variantSets = "material"
+    )
+    {
+        variantSet "material" = {
+            "default" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </NodeB/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </NodeB/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.2, 0.2, 0.2)
+                        float inputs:roughness = 0.2
+                        color3f inputs:specularColor = (0.5, 0.5, 0.5)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_green" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </NodeB/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </NodeB/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (0, 1, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_red" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </NodeB/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </NodeB/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (1, 0, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+        }
+    }
+
+    def Scope "info"
+    {
+        custom string type = "compute_node"
+        custom string xname = "1"
+    }
+    variantSet "mesh" = {
+        "default" {
+            def Mesh "mesh"
+            {
+                int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
+                int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6, 7, 0, 4, 7, 3, 1, 5, 6, 2, 3, 2, 6, 7, 0, 1, 5, 4]
+                point3f[] points = [(-12.75, -0.935, -12.75), (12.75, -0.935, -12.75), (12.75, 0.935, -12.75), (-12.75, 0.935, -12.75), (-12.75, -0.935, 12.75), (12.75, -0.935, 12.75), (12.75, 0.935, 12.75), (-12.75, 0.935, 12.75)]
+                token visibility = "inherited"
+            }
+
+        }
+    }
+}
+

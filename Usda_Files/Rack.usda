@@ -1,0 +1,1208 @@
+#usda 1.0
+(
+    defaultPrim = "Rack"
+)
+
+def Xform "Rack" (
+    variants = {
+        string mesh = "default"
+    }
+    prepend variantSets = "mesh"
+)
+{
+    over "mesh" (
+        variants = {
+            string material = "default"
+        }
+        prepend variantSets = "material"
+    )
+    {
+        variantSet "material" = {
+            "default" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Rack/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Rack/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.2, 0.2, 0.2)
+                        float inputs:roughness = 0.2
+                        color3f inputs:specularColor = (0.5, 0.5, 0.5)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_green" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Rack/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Rack/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (0, 1, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_red" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Rack/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Rack/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (1, 0, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+        }
+    }
+
+    def Scope "info"
+    {
+        custom string type = "Rack"
+        custom string xname = "1"
+    }
+
+    def Xform "Chassis24" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -43.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c1"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c11"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c12"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c13"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c14"
+            }
+        }
+    }
+
+    def Xform "Chassis23" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -39.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c2"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c21"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c22"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c23"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c24"
+            }
+        }
+    }
+
+    def Xform "Chassis22" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -35.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c3"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c31"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c32"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c33"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c34"
+            }
+        }
+    }
+
+    def Xform "Chassis21" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -31.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c4"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c41"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c42"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c43"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c44"
+            }
+        }
+    }
+
+    def Xform "Chassis20" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -28.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c5"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c51"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c52"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c53"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c54"
+            }
+        }
+    }
+
+    def Xform "Chassis19" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -24.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c6"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c61"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c62"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c63"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c64"
+            }
+        }
+    }
+
+    def Xform "Chassis18" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -20.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c7"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c71"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c72"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c73"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c74"
+            }
+        }
+    }
+
+    def Xform "Chassis17" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -16.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c8"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c81"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c82"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c83"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c84"
+            }
+        }
+    }
+
+    def Xform "Chassis16" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -13.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c9"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c91"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c92"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c93"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c94"
+            }
+        }
+    }
+
+    def Xform "Chassis15" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -9.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c10"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c101"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c102"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c103"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c104"
+            }
+        }
+    }
+
+    def Xform "Chassis14" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -5.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c11"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c111"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c112"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c113"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c114"
+            }
+        }
+    }
+
+    def Xform "Chassis13" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -1.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c12"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c121"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c122"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c123"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c124"
+            }
+        }
+    }
+
+    def Xform "Chassis12" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 1.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c13"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c131"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c132"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c133"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c134"
+            }
+        }
+    }
+
+    def Xform "Chassis11" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 5.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c14"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c141"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c142"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c143"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c144"
+            }
+        }
+    }
+
+    def Xform "Chassis10" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 9.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c15"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c151"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c152"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c153"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c154"
+            }
+        }
+    }
+
+    def Xform "Chassis09" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 13.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c16"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c161"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c162"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c163"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c164"
+            }
+        }
+    }
+
+    def Xform "Chassis08" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 16.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c17"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c171"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c172"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c173"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c174"
+            }
+        }
+    }
+
+    def Xform "Chassis07" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 20.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c18"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c181"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c182"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c183"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c184"
+            }
+        }
+    }
+
+    def Xform "Chassis06" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 24.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c19"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c191"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c192"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c193"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c194"
+            }
+        }
+    }
+
+    def Xform "Chassis05" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 28.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c20"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c201"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c202"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c203"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c204"
+            }
+        }
+    }
+
+    def Xform "Chassis04" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 31.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c21"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c211"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c212"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c213"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c214"
+            }
+        }
+    }
+
+    def Xform "Chassis03" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 35.625, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c22"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c221"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c222"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c223"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c224"
+            }
+        }
+    }
+
+    def Xform "Chassis02" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 39.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c23"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c231"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c232"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c233"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c234"
+            }
+        }
+    }
+
+    def Xform "Chassis01" (
+        prepend payload = @Chassis.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 43.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "1c24"
+        }
+
+        over "Node1"
+        {
+            over "info"
+            {
+                custom string xname = "1c241"
+            }
+        }
+
+        over "Node2"
+        {
+            over "info"
+            {
+                custom string xname = "1c242"
+            }
+        }
+
+        over "Node3"
+        {
+            over "info"
+            {
+                custom string xname = "1c243"
+            }
+        }
+
+        over "Node4"
+        {
+            over "info"
+            {
+                custom string xname = "1c244"
+            }
+        }
+    }
+    variantSet "mesh" = {
+        "default" {
+            def Mesh "mesh"
+            {
+                int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
+                int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6, 7, 0, 4, 7, 3, 1, 5, 6, 2, 3, 2, 6, 7, 0, 1, 5, 4]
+                point3f[] points = [(-26, -45, -26), (26, -45, -26), (26, 45, -26), (-26, 45, -26), (-26, -45, 26), (26, -45, 26), (26, 45, 26), (-26, 45, 26)]
+                token visibility = "inherited"
+            }
+
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+
+{
+    "name": "NodeA",
+    "description": "NodeA",
+    "properties": {
+        "type": "compute node",
+        "dimensions_m": {
+            "width": 26.0,
+            "height": 1.875,
+            "depth": 26.0
+        }
+    }
+}

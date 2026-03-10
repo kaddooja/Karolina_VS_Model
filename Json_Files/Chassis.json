@@ -1,0 +1,45 @@
+{
+    "name": "Chassis",
+    "properties": {
+        "type": "Chassis",
+        "dimensions_m": {
+            "width": 51.0,
+            "height": 3.75,
+            "depth": 51.0
+        }
+    },
+    "children": {
+        "Node1": {
+            "file": "nodeB.json",
+            "position_m": {
+                "x": -13.0,
+                "y": -0.9375,
+                "z": 0
+            }
+        },
+        "Node2": {
+            "file": "nodeB.json",
+            "position_m": {
+                "x": 13.0,
+                "y": -0.9375,
+                "z": 0
+            }
+        },
+        "Node3": {
+            "file": "nodeB.json",
+            "position_m": {
+                "x": -13.0,
+                "y": 0.9375,
+                "z": 0
+            }
+        },
+        "Node4": {
+            "file": "nodeB.json",
+            "position_m": {
+                "x": 13.0,
+                "y": 0.9375,
+                "z": 0
+            }
+        }
+    }
+}

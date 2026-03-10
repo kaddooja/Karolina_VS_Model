@@ -1,0 +1,160 @@
+#usda 1.0
+(
+    defaultPrim = "Chassis"
+)
+
+def Xform "Chassis" (
+    variants = {
+        string mesh = "default"
+    }
+    prepend variantSets = "mesh"
+)
+{
+    over "mesh" (
+        variants = {
+            string material = "default"
+        }
+        prepend variantSets = "material"
+    )
+    {
+        variantSet "material" = {
+            "default" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Chassis/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0.2, 0.2, 0.2)
+                        float inputs:roughness = 0.2
+                        color3f inputs:specularColor = (0.5, 0.5, 0.5)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_green" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Chassis/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (0, 1, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+            "emissive_red" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            ) {
+                rel material:binding = </Chassis/mesh/Material>
+
+                def Material "Material"
+                {
+                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+
+                    def Shader "PreviewSurface"
+                    {
+                        uniform token info:id = "UsdPreviewSurface"
+                        color3f inputs:diffuseColor = (0, 0, 0)
+                        color3f inputs:emissiveColor = (1, 0, 0)
+                        float inputs:roughness = 1
+                        color3f inputs:specularColor = (0, 0, 0)
+                        token outputs:surface
+                    }
+                }
+
+            }
+        }
+    }
+
+    def Scope "info"
+    {
+        custom string type = "Chassis"
+        custom string xname = "c1"
+    }
+
+    def Xform "Node1" (
+        prepend payload = @nodeB.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (-13, -0.9375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "c11"
+        }
+    }
+
+    def Xform "Node2" (
+        prepend payload = @nodeB.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (13, -0.9375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "c12"
+        }
+    }
+
+    def Xform "Node3" (
+        prepend payload = @nodeB.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (-13, 0.9375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "c13"
+        }
+    }
+
+    def Xform "Node4" (
+        prepend payload = @nodeB.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (13, 0.9375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "c14"
+        }
+    }
+    variantSet "mesh" = {
+        "default" {
+            def Mesh "mesh"
+            {
+                int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
+                int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6, 7, 0, 4, 7, 3, 1, 5, 6, 2, 3, 2, 6, 7, 0, 1, 5, 4]
+                point3f[] points = [(-25.5, -1.875, -25.5), (25.5, -1.875, -25.5), (25.5, 1.875, -25.5), (-25.5, 1.875, -25.5), (-25.5, -1.875, 25.5), (25.5, -1.875, 25.5), (25.5, 1.875, 25.5), (-25.5, 1.875, 25.5)]
+                token visibility = "inherited"
+            }
+
+        }
+    }
+}
+

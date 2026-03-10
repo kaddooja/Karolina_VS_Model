@@ -1,0 +1,86 @@
+{
+    "name": "Karolina",
+    "description": "Karolina System",
+    "children": {
+        "Rack1": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "Rack2": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 55.0
+            }
+        },
+        "Rack3": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 110.0
+            }
+        },
+        "Rack4": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 165.0
+            }
+        },
+        "Rack5": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 220.0
+            }
+        },
+        "Rack6": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 275.0
+            }
+        },
+        "Rack7": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 330.0
+            }
+        },
+        "Rack8": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 385.0
+            }
+        },
+        "Rack9": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 440.0
+            }
+        },
+        "Rack10": {
+            "file": "Rack.json",
+            "position_m": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 495.0
+            }
+        }
+    }
+}
