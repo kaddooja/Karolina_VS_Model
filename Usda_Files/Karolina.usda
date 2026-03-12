@@ -31,6 +31,22 @@ def Xform "Karolina" (
         {
             over "info"
             {
+                custom string xname = "11"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "12"
+            }
+        }
+
+        over "Chassis22"
+        {
+            over "info"
+            {
                 custom string xname = "1c1"
             }
 
@@ -67,7 +83,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -107,7 +123,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -147,7 +163,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -187,7 +203,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -227,7 +243,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -267,7 +283,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -307,7 +323,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -347,7 +363,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -387,7 +403,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -427,7 +443,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "13"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "131"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "132"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -467,7 +507,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -507,7 +547,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -547,7 +587,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -587,7 +627,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -627,7 +667,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "14"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -667,7 +715,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -707,7 +755,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -747,7 +795,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -787,7 +835,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -826,166 +874,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "1c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "1c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "1c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "1c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "1c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "1c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "1c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "1c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "1c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "1c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "1c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "1c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "1c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "1c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "1c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "1c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "1c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "1c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "1c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "1c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack2" (
@@ -1002,6 +890,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "21"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "22"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -1041,7 +945,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -1081,7 +985,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -1121,7 +1025,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -1161,7 +1065,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -1201,7 +1105,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -1241,7 +1145,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -1281,7 +1185,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -1321,7 +1225,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -1361,7 +1265,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -1401,7 +1305,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "23"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "231"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "232"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -1441,7 +1369,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -1481,7 +1409,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -1521,7 +1449,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -1561,7 +1489,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -1601,7 +1529,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "24"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -1641,7 +1577,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -1681,7 +1617,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -1721,7 +1657,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -1761,7 +1697,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -1800,166 +1736,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "2c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "2c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "2c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "2c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "2c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "2c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "2c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "2c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "2c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "2c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "2c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "2c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "2c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "2c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "2c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "2c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "2c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "2c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "2c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "2c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack3" (
@@ -1976,6 +1752,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "31"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "32"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -2015,7 +1807,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -2055,7 +1847,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -2095,7 +1887,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -2135,7 +1927,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -2175,7 +1967,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -2215,7 +2007,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -2255,7 +2047,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -2295,7 +2087,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -2335,7 +2127,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -2375,7 +2167,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "33"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "331"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "332"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -2415,7 +2231,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -2455,7 +2271,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -2495,7 +2311,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -2535,7 +2351,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -2575,7 +2391,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "34"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -2615,7 +2439,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -2655,7 +2479,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -2695,7 +2519,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -2735,7 +2559,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -2774,166 +2598,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "3c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "3c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "3c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "3c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "3c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "3c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "3c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "3c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "3c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "3c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "3c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "3c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "3c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "3c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "3c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "3c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "3c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "3c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "3c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "3c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack4" (
@@ -2950,6 +2614,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "41"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "42"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -2989,7 +2669,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -3029,7 +2709,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -3069,7 +2749,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -3109,7 +2789,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -3149,7 +2829,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -3189,7 +2869,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -3229,7 +2909,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -3269,7 +2949,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -3309,7 +2989,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -3349,7 +3029,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "43"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "431"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "432"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -3389,7 +3093,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -3429,7 +3133,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -3469,7 +3173,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -3509,7 +3213,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -3549,7 +3253,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "44"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -3589,7 +3301,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -3629,7 +3341,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -3669,7 +3381,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -3709,7 +3421,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -3748,166 +3460,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "4c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "4c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "4c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "4c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "4c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "4c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "4c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "4c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "4c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "4c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "4c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "4c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "4c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "4c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "4c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "4c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "4c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "4c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "4c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "4c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack5" (
@@ -3924,6 +3476,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "51"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "52"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -3963,7 +3531,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -4003,7 +3571,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -4043,7 +3611,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -4083,7 +3651,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -4123,7 +3691,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -4163,7 +3731,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -4203,7 +3771,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -4243,7 +3811,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -4283,7 +3851,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -4323,7 +3891,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "53"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "531"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "532"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -4363,7 +3955,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -4403,7 +3995,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -4443,7 +4035,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -4483,7 +4075,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -4523,7 +4115,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "54"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -4563,7 +4163,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -4603,7 +4203,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -4643,7 +4243,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -4683,7 +4283,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -4722,166 +4322,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "5c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "5c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "5c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "5c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "5c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "5c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "5c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "5c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "5c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "5c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "5c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "5c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "5c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "5c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "5c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "5c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "5c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "5c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "5c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "5c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack6" (
@@ -4898,6 +4338,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "61"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "62"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -4937,7 +4393,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -4977,7 +4433,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -5017,7 +4473,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -5057,7 +4513,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -5097,7 +4553,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -5137,7 +4593,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -5177,7 +4633,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -5217,7 +4673,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -5257,7 +4713,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -5297,7 +4753,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "63"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "631"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "632"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -5337,7 +4817,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -5377,7 +4857,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -5417,7 +4897,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -5457,7 +4937,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -5497,7 +4977,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "64"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -5537,7 +5025,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -5577,7 +5065,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -5617,7 +5105,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -5657,7 +5145,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -5696,166 +5184,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "6c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "6c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "6c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "6c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "6c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "6c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "6c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "6c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "6c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "6c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "6c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "6c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "6c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "6c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "6c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "6c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "6c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "6c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "6c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "6c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack7" (
@@ -5872,6 +5200,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "71"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "72"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -5911,7 +5255,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -5951,7 +5295,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -5991,7 +5335,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -6031,7 +5375,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -6071,7 +5415,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -6111,7 +5455,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -6151,7 +5495,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -6191,7 +5535,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -6231,7 +5575,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -6271,7 +5615,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "73"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "731"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "732"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -6311,7 +5679,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -6351,7 +5719,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -6391,7 +5759,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -6431,7 +5799,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -6471,7 +5839,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "74"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -6511,7 +5887,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -6551,7 +5927,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -6591,7 +5967,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -6631,7 +6007,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -6670,166 +6046,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "7c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "7c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "7c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "7c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "7c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "7c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "7c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "7c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "7c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "7c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "7c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "7c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "7c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "7c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "7c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "7c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "7c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "7c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "7c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "7c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack8" (
@@ -6846,6 +6062,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "81"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "82"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -6885,7 +6117,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -6925,7 +6157,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -6965,7 +6197,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -7005,7 +6237,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -7045,7 +6277,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -7085,7 +6317,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -7125,7 +6357,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -7165,7 +6397,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -7205,7 +6437,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -7245,7 +6477,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "83"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "831"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "832"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -7285,7 +6541,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -7325,7 +6581,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -7365,7 +6621,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -7405,7 +6661,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -7445,7 +6701,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "84"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -7485,7 +6749,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -7525,7 +6789,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -7565,7 +6829,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -7605,7 +6869,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -7644,166 +6908,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "8c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "8c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "8c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "8c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "8c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "8c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "8c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "8c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "8c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "8c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "8c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "8c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "8c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "8c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "8c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "8c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "8c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "8c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "8c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "8c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack9" (
@@ -7820,6 +6924,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "91"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "92"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -7859,7 +6979,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -7899,7 +7019,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -7939,7 +7059,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -7979,7 +7099,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -8019,7 +7139,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -8059,7 +7179,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -8099,7 +7219,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -8139,7 +7259,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -8179,7 +7299,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -8219,7 +7339,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "93"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "931"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "932"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -8259,7 +7403,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -8299,7 +7443,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -8339,7 +7483,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -8379,7 +7523,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -8419,7 +7563,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "94"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -8459,7 +7611,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -8499,7 +7651,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -8539,7 +7691,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -8579,7 +7731,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -8618,166 +7770,6 @@ def Xform "Karolina" (
                 }
             }
         }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "9c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "9c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "9c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "9c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "9c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "9c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "9c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "9c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "9c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "9c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "9c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "9c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "9c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "9c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "9c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "9c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "9c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "9c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "9c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "9c244"
-                }
-            }
-        }
     }
 
     def Xform "Rack10" (
@@ -8794,6 +7786,22 @@ def Xform "Karolina" (
         }
 
         over "Chassis24"
+        {
+            over "info"
+            {
+                custom string xname = "101"
+            }
+        }
+
+        over "Chassis23"
+        {
+            over "info"
+            {
+                custom string xname = "102"
+            }
+        }
+
+        over "Chassis22"
         {
             over "info"
             {
@@ -8833,7 +7841,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis23"
+        over "Chassis21"
         {
             over "info"
             {
@@ -8873,7 +7881,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis22"
+        over "Chassis20"
         {
             over "info"
             {
@@ -8913,7 +7921,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis21"
+        over "Chassis19"
         {
             over "info"
             {
@@ -8953,7 +7961,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis20"
+        over "Chassis18"
         {
             over "info"
             {
@@ -8993,7 +8001,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis19"
+        over "Chassis17"
         {
             over "info"
             {
@@ -9033,7 +8041,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis18"
+        over "Chassis16"
         {
             over "info"
             {
@@ -9073,7 +8081,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis17"
+        over "Chassis15"
         {
             over "info"
             {
@@ -9113,7 +8121,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis16"
+        over "Chassis14"
         {
             over "info"
             {
@@ -9153,7 +8161,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis15"
+        over "Chassis13"
         {
             over "info"
             {
@@ -9193,7 +8201,31 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis14"
+        over "Chassis12"
+        {
+            over "info"
+            {
+                custom string xname = "103"
+            }
+
+            over "Switch1"
+            {
+                over "info"
+                {
+                    custom string xname = "1031"
+                }
+            }
+
+            over "Switch2"
+            {
+                over "info"
+                {
+                    custom string xname = "1032"
+                }
+            }
+        }
+
+        over "Chassis11"
         {
             over "info"
             {
@@ -9233,7 +8265,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis13"
+        over "Chassis10"
         {
             over "info"
             {
@@ -9273,7 +8305,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis12"
+        over "Chassis09"
         {
             over "info"
             {
@@ -9313,7 +8345,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis11"
+        over "Chassis08"
         {
             over "info"
             {
@@ -9353,7 +8385,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis10"
+        over "Chassis07"
         {
             over "info"
             {
@@ -9393,7 +8425,15 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis09"
+        over "Chassis06"
+        {
+            over "info"
+            {
+                custom string xname = "104"
+            }
+        }
+
+        over "Chassis05"
         {
             over "info"
             {
@@ -9433,7 +8473,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis08"
+        over "Chassis04"
         {
             over "info"
             {
@@ -9473,7 +8513,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis07"
+        over "Chassis03"
         {
             over "info"
             {
@@ -9513,7 +8553,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis06"
+        over "Chassis02"
         {
             over "info"
             {
@@ -9553,7 +8593,7 @@ def Xform "Karolina" (
             }
         }
 
-        over "Chassis05"
+        over "Chassis01"
         {
             over "info"
             {
@@ -9589,166 +8629,6 @@ def Xform "Karolina" (
                 over "info"
                 {
                     custom string xname = "10c204"
-                }
-            }
-        }
-
-        over "Chassis04"
-        {
-            over "info"
-            {
-                custom string xname = "10c21"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "10c211"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "10c212"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "10c213"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "10c214"
-                }
-            }
-        }
-
-        over "Chassis03"
-        {
-            over "info"
-            {
-                custom string xname = "10c22"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "10c221"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "10c222"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "10c223"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "10c224"
-                }
-            }
-        }
-
-        over "Chassis02"
-        {
-            over "info"
-            {
-                custom string xname = "10c23"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "10c231"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "10c232"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "10c233"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "10c234"
-                }
-            }
-        }
-
-        over "Chassis01"
-        {
-            over "info"
-            {
-                custom string xname = "10c24"
-            }
-
-            over "Node1"
-            {
-                over "info"
-                {
-                    custom string xname = "10c241"
-                }
-            }
-
-            over "Node2"
-            {
-                over "info"
-                {
-                    custom string xname = "10c242"
-                }
-            }
-
-            over "Node3"
-            {
-                over "info"
-                {
-                    custom string xname = "10c243"
-                }
-            }
-
-            over "Node4"
-            {
-                over "info"
-                {
-                    custom string xname = "10c244"
                 }
             }
         }

@@ -90,11 +90,39 @@ def Xform "Rack" (
     }
 
     def Xform "Chassis24" (
+        prepend payload = @CDU.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 43.125, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "11"
+        }
+    }
+
+    def Xform "Chassis23" (
+        prepend payload = @CDU.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, 39.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "12"
+        }
+    }
+
+    def Xform "Chassis22" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -43.125, 0)
+        double3 xformOp:translate = (0, 35.625, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -135,12 +163,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis23" (
+    def Xform "Chassis21" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -39.375, 0)
+        double3 xformOp:translate = (0, 31.875, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -181,12 +209,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis22" (
+    def Xform "Chassis20" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -35.625, 0)
+        double3 xformOp:translate = (0, 28.125, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -227,12 +255,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis21" (
+    def Xform "Chassis19" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -31.875, 0)
+        double3 xformOp:translate = (0, 24.375, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -273,12 +301,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis20" (
+    def Xform "Chassis18" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -28.125, 0)
+        double3 xformOp:translate = (0, 20.625, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -319,12 +347,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis19" (
+    def Xform "Chassis17" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -24.375, 0)
+        double3 xformOp:translate = (0, 16.875, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -365,12 +393,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis18" (
+    def Xform "Chassis16" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -20.625, 0)
+        double3 xformOp:translate = (0, 13.125, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -411,12 +439,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis17" (
+    def Xform "Chassis15" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -16.875, 0)
+        double3 xformOp:translate = (0, 9.375, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -457,12 +485,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis16" (
+    def Xform "Chassis14" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -13.125, 0)
+        double3 xformOp:translate = (0, 5.625, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -503,12 +531,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis15" (
+    def Xform "Chassis13" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -9.375, 0)
+        double3 xformOp:translate = (0, 1.875, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -549,7 +577,37 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis14" (
+    def Xform "Chassis12" (
+        prepend payload = @Switch.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -1.875, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "13"
+        }
+
+        over "Switch1"
+        {
+            over "info"
+            {
+                custom string xname = "131"
+            }
+        }
+
+        over "Switch2"
+        {
+            over "info"
+            {
+                custom string xname = "132"
+            }
+        }
+    }
+
+    def Xform "Chassis11" (
         prepend payload = @Chassis.usda@
     )
     {
@@ -595,12 +653,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis13" (
+    def Xform "Chassis10" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -1.875, 0)
+        double3 xformOp:translate = (0, -9.375, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -641,12 +699,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis12" (
+    def Xform "Chassis09" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 1.875, 0)
+        double3 xformOp:translate = (0, -13.125, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -687,12 +745,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis11" (
+    def Xform "Chassis08" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 5.625, 0)
+        double3 xformOp:translate = (0, -16.875, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -733,12 +791,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis10" (
+    def Xform "Chassis07" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 9.375, 0)
+        double3 xformOp:translate = (0, -20.625, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -779,12 +837,26 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis09" (
+    def Xform "Chassis06" (
+        prepend payload = @IBL.usda@
+    )
+    {
+        float3 xformOp:rotateXYZ = (0, 0, 0)
+        double3 xformOp:translate = (0, -24.375, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
+
+        over "info"
+        {
+            custom string xname = "14"
+        }
+    }
+
+    def Xform "Chassis05" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 13.125, 0)
+        double3 xformOp:translate = (0, -28.125, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -825,12 +897,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis08" (
+    def Xform "Chassis04" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 16.875, 0)
+        double3 xformOp:translate = (0, -31.875, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -871,12 +943,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis07" (
+    def Xform "Chassis03" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 20.625, 0)
+        double3 xformOp:translate = (0, -35.625, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -917,12 +989,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis06" (
+    def Xform "Chassis02" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 24.375, 0)
+        double3 xformOp:translate = (0, -39.375, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -963,12 +1035,12 @@ def Xform "Rack" (
         }
     }
 
-    def Xform "Chassis05" (
+    def Xform "Chassis01" (
         prepend payload = @Chassis.usda@
     )
     {
         float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 28.125, 0)
+        double3 xformOp:translate = (0, -43.125, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
 
         over "info"
@@ -1005,190 +1077,6 @@ def Xform "Rack" (
             over "info"
             {
                 custom string xname = "1c204"
-            }
-        }
-    }
-
-    def Xform "Chassis04" (
-        prepend payload = @Chassis.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 31.875, 0)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "1c21"
-        }
-
-        over "Node1"
-        {
-            over "info"
-            {
-                custom string xname = "1c211"
-            }
-        }
-
-        over "Node2"
-        {
-            over "info"
-            {
-                custom string xname = "1c212"
-            }
-        }
-
-        over "Node3"
-        {
-            over "info"
-            {
-                custom string xname = "1c213"
-            }
-        }
-
-        over "Node4"
-        {
-            over "info"
-            {
-                custom string xname = "1c214"
-            }
-        }
-    }
-
-    def Xform "Chassis03" (
-        prepend payload = @Chassis.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 35.625, 0)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "1c22"
-        }
-
-        over "Node1"
-        {
-            over "info"
-            {
-                custom string xname = "1c221"
-            }
-        }
-
-        over "Node2"
-        {
-            over "info"
-            {
-                custom string xname = "1c222"
-            }
-        }
-
-        over "Node3"
-        {
-            over "info"
-            {
-                custom string xname = "1c223"
-            }
-        }
-
-        over "Node4"
-        {
-            over "info"
-            {
-                custom string xname = "1c224"
-            }
-        }
-    }
-
-    def Xform "Chassis02" (
-        prepend payload = @Chassis.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 39.375, 0)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "1c23"
-        }
-
-        over "Node1"
-        {
-            over "info"
-            {
-                custom string xname = "1c231"
-            }
-        }
-
-        over "Node2"
-        {
-            over "info"
-            {
-                custom string xname = "1c232"
-            }
-        }
-
-        over "Node3"
-        {
-            over "info"
-            {
-                custom string xname = "1c233"
-            }
-        }
-
-        over "Node4"
-        {
-            over "info"
-            {
-                custom string xname = "1c234"
-            }
-        }
-    }
-
-    def Xform "Chassis01" (
-        prepend payload = @Chassis.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 43.125, 0)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "1c24"
-        }
-
-        over "Node1"
-        {
-            over "info"
-            {
-                custom string xname = "1c241"
-            }
-        }
-
-        over "Node2"
-        {
-            over "info"
-            {
-                custom string xname = "1c242"
-            }
-        }
-
-        over "Node3"
-        {
-            over "info"
-            {
-                custom string xname = "1c243"
-            }
-        }
-
-        over "Node4"
-        {
-            over "info"
-            {
-                custom string xname = "1c244"
             }
         }
     }

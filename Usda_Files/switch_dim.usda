@@ -1,9 +1,9 @@
 #usda 1.0
 (
-    defaultPrim = "Chassis"
+    defaultPrim = "switch_dim"
 )
 
-def Xform "Chassis" (
+def Xform "switch_dim" (
     variants = {
         string mesh = "default"
     }
@@ -21,11 +21,11 @@ def Xform "Chassis" (
             "default" (
                 prepend apiSchemas = ["MaterialBindingAPI"]
             ) {
-                rel material:binding = </Chassis/mesh/Material>
+                rel material:binding = </switch_dim/mesh/Material>
 
                 def Material "Material"
                 {
-                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+                    token outputs:surface.connect = </switch_dim/mesh/Material/PreviewSurface.outputs:surface>
 
                     def Shader "PreviewSurface"
                     {
@@ -41,11 +41,11 @@ def Xform "Chassis" (
             "emissive_green" (
                 prepend apiSchemas = ["MaterialBindingAPI"]
             ) {
-                rel material:binding = </Chassis/mesh/Material>
+                rel material:binding = </switch_dim/mesh/Material>
 
                 def Material "Material"
                 {
-                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+                    token outputs:surface.connect = </switch_dim/mesh/Material/PreviewSurface.outputs:surface>
 
                     def Shader "PreviewSurface"
                     {
@@ -62,11 +62,11 @@ def Xform "Chassis" (
             "emissive_red" (
                 prepend apiSchemas = ["MaterialBindingAPI"]
             ) {
-                rel material:binding = </Chassis/mesh/Material>
+                rel material:binding = </switch_dim/mesh/Material>
 
                 def Material "Material"
                 {
-                    token outputs:surface.connect = </Chassis/mesh/Material/PreviewSurface.outputs:surface>
+                    token outputs:surface.connect = </switch_dim/mesh/Material/PreviewSurface.outputs:surface>
 
                     def Shader "PreviewSurface"
                     {
@@ -85,64 +85,8 @@ def Xform "Chassis" (
 
     def Scope "info"
     {
-        custom string type = "Chassis"
-        custom string xname = "c1"
-    }
-
-    def Xform "Node1" (
-        prepend payload = @nodeA.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -0.9375, -13)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "c11"
-        }
-    }
-
-    def Xform "Node2" (
-        prepend payload = @nodeA.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, -0.9375, 13)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "c12"
-        }
-    }
-
-    def Xform "Node3" (
-        prepend payload = @nodeA.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 0.9375, -13)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "c13"
-        }
-    }
-
-    def Xform "Node4" (
-        prepend payload = @nodeA.usda@
-    )
-    {
-        float3 xformOp:rotateXYZ = (0, 0, 0)
-        double3 xformOp:translate = (0, 0.9375, 13)
-        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ"]
-
-        over "info"
-        {
-            custom string xname = "c14"
-        }
+        custom string type = "Switch"
+        custom string xname = "1"
     }
     variantSet "mesh" = {
         "default" {
@@ -150,7 +94,7 @@ def Xform "Chassis" (
             {
                 int[] faceVertexCounts = [4, 4, 4, 4, 4, 4]
                 int[] faceVertexIndices = [0, 1, 2, 3, 4, 5, 6, 7, 0, 4, 7, 3, 1, 5, 6, 2, 3, 2, 6, 7, 0, 1, 5, 4]
-                point3f[] points = [(-26, -1.875, -26), (26, -1.875, -26), (26, 1.875, -26), (-26, 1.875, -26), (-26, -1.875, 26), (26, -1.875, 26), (26, 1.875, 26), (-26, 1.875, 26)]
+                point3f[] points = [(-26, -0.9375, -26), (26, -0.9375, -26), (26, 0.9375, -26), (-26, 0.9375, -26), (-26, -0.9375, 26), (26, -0.9375, 26), (26, 0.9375, 26), (-26, 0.9375, 26)]
                 token visibility = "inherited"
             }
 
