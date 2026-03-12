@@ -17,7 +17,10 @@ The goal is to create a **machine-readable layout of the cluster** that can be u
 6. Generate JSON files for racks, chassis, nodes, and infrastructure components.
 7. Maintain a hierarchical structure:
    
----
+System
+└── Rack
+└── Chassis
+└── Nodes / Switches / Cooling Units
 
 # Input Data
 
@@ -51,4 +54,36 @@ The first script reads the **cluster sheet** and generates a system-level JSON d
 ### Rack Placement Logic
 
 Racks are positioned in 3D space using a constant spacing value.
+Each rack position is calculated as:
+z_position = z_start + rack_index * x_spacing
 
+This ensures that racks are evenly spaced along the **z-axis**.
+
+### Example Output Structure
+
+```json
+{
+  "name": "Karolina Cluster",
+  "description": "System layout",
+  "children": {
+    "Rack1": {
+      "file": "Rack1.json",
+      "position_m": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  }
+}
+Rack-Level JSON Generation
+
+The second script reads the Rack1 sheet and generates a detailed rack structure.
+Rack Properties
+The rack JSON contains:
+Rack name
+Description
+Type
+Dimensions
+
+Example:
