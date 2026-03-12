@@ -50,7 +50,7 @@ Each row represents a component inside the rack.
 # System-Level JSON Generation
 
 The first script reads the **cluster sheet** and generates a system-level JSON describing rack placement.
-
+---
 ### Rack Placement Logic
 
 Racks are positioned in 3D space using a constant spacing value.
