@@ -11,18 +11,18 @@
     },
     "children": {
         "Chassis24": {
-            "file": "Chassis.json",
+            "file": "CDU.json",
             "position_m": {
                 "x": 0,
-                "y": -43.125,
+                "y": 43.125,
                 "z": 0
             }
         },
         "Chassis23": {
-            "file": "Chassis.json",
+            "file": "CDU.json",
             "position_m": {
                 "x": 0,
-                "y": -39.375,
+                "y": 39.375,
                 "z": 0
             }
         },
@@ -30,7 +30,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -35.625,
+                "y": 35.625,
                 "z": 0
             }
         },
@@ -38,7 +38,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -31.875,
+                "y": 31.875,
                 "z": 0
             }
         },
@@ -46,7 +46,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -28.125,
+                "y": 28.125,
                 "z": 0
             }
         },
@@ -54,7 +54,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -24.375,
+                "y": 24.375,
                 "z": 0
             }
         },
@@ -62,7 +62,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -20.625,
+                "y": 20.625,
                 "z": 0
             }
         },
@@ -70,7 +70,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -16.875,
+                "y": 16.875,
                 "z": 0
             }
         },
@@ -78,7 +78,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -13.125,
+                "y": 13.125,
                 "z": 0
             }
         },
@@ -86,7 +86,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -9.375,
+                "y": 9.375,
                 "z": 0
             }
         },
@@ -94,7 +94,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -5.625,
+                "y": 5.625,
                 "z": 0
             }
         },
@@ -102,15 +102,15 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": -1.875,
+                "y": 1.875,
                 "z": 0
             }
         },
         "Chassis12": {
-            "file": "Chassis.json",
+            "file": "Switch.json",
             "position_m": {
                 "x": 0,
-                "y": 1.875,
+                "y": -1.875,
                 "z": 0
             }
         },
@@ -118,7 +118,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 5.625,
+                "y": -5.625,
                 "z": 0
             }
         },
@@ -126,7 +126,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 9.375,
+                "y": -9.375,
                 "z": 0
             }
         },
@@ -134,7 +134,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 13.125,
+                "y": -13.125,
                 "z": 0
             }
         },
@@ -142,7 +142,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 16.875,
+                "y": -16.875,
                 "z": 0
             }
         },
@@ -150,15 +150,15 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 20.625,
+                "y": -20.625,
                 "z": 0
             }
         },
         "Chassis06": {
-            "file": "Chassis.json",
+            "file": "IBL.json",
             "position_m": {
                 "x": 0,
-                "y": 24.375,
+                "y": -24.375,
                 "z": 0
             }
         },
@@ -166,7 +166,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 28.125,
+                "y": -28.125,
                 "z": 0
             }
         },
@@ -174,7 +174,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 31.875,
+                "y": -31.875,
                 "z": 0
             }
         },
@@ -182,7 +182,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 35.625,
+                "y": -35.625,
                 "z": 0
             }
         },
@@ -190,7 +190,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 39.375,
+                "y": -39.375,
                 "z": 0
             }
         },
@@ -198,7 +198,7 @@
             "file": "Chassis.json",
             "position_m": {
                 "x": 0,
-                "y": 43.125,
+                "y": -43.125,
                 "z": 0
             }
         }
