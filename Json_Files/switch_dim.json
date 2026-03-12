@@ -1,0 +1,12 @@
+{
+    "name": "switch_dim",
+    "description": "Single switch unit",
+    "properties": {
+        "type": "Switch",
+        "dimensions_m": {
+            "width": 52.0,
+            "height": 1.875,
+            "depth": 52.0
+        }
+    }
+}

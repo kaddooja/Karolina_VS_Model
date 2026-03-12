@@ -1,0 +1,12 @@
+{
+    "name": "IBL",
+    "description": "Chassis_type",
+    "properties": {
+        "type": "Cooling",
+        "dimensions_m": {
+            "width": 52.0,
+            "height": 3.75,
+            "depth": 52.0
+        }
+    }
+}
