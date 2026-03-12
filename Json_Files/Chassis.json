@@ -3,42 +3,42 @@
     "properties": {
         "type": "Chassis",
         "dimensions_m": {
-            "width": 51.0,
+            "width": 52.0,
             "height": 3.75,
-            "depth": 51.0
+            "depth": 52.0
         }
     },
     "children": {
         "Node1": {
-            "file": "nodeB.json",
+            "file": "nodeA.json",
             "position_m": {
-                "x": -13.0,
+                "x": 0,
                 "y": -0.9375,
-                "z": 0
+                "z": -13.0
             }
         },
         "Node2": {
-            "file": "nodeB.json",
+            "file": "nodeA.json",
             "position_m": {
-                "x": 13.0,
+                "x": 0,
                 "y": -0.9375,
-                "z": 0
+                "z": 13.0
             }
         },
         "Node3": {
-            "file": "nodeB.json",
+            "file": "nodeA.json",
             "position_m": {
-                "x": -13.0,
+                "x": 0,
                 "y": 0.9375,
-                "z": 0
+                "z": -13.0
             }
         },
         "Node4": {
-            "file": "nodeB.json",
+            "file": "nodeA.json",
             "position_m": {
-                "x": 13.0,
+                "x": 0,
                 "y": 0.9375,
-                "z": 0
+                "z": 13.0
             }
         }
     }
