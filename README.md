@@ -54,7 +54,7 @@ The first script reads the **cluster sheet** and generates a system-level JSON d
 Racks are positioned in 3D space using a constant spacing value.
 Each rack position is calculated as:
 z_position = z_start + rack_index * x_spacing
----
+
 This ensures that racks are evenly spaced along the **z-axis**.
 
 # Rack-Level JSON Generation
