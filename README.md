@@ -15,7 +15,7 @@ This project automates the generation of a hierarchical JSON representation of t
 6. Generate JSON files for racks, chassis, nodes, and infrastructure components.
 7. Maintain a hierarchical structure:
    
-System
+System  
 └── Rack
 └── Chassis
 └── Nodes / Switches / Cooling Units
@@ -61,7 +61,8 @@ This ensures that racks are evenly spaced along the **z-axis**.
 
 # Rack-Level JSON Generation
 
-The second script reads the Rack1 sheet and generates a detailed rack structure.
+The second script reads the Rack1 sheet and generates a detailed rack structure.  
+
 Rack Properties
 The rack JSON contains:
    -Rack name
