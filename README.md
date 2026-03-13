@@ -123,10 +123,11 @@ This allows stacking of two switches inside the chassis.
 
 ### Generated Output Files
 
-Running the scripts generates the following JSON files:
- `output.json`
-- `Rack1.1.json`
-- `Chassis1.1.json`
+Running the scripts generates the following JSON files:  
+
+- `karolina.json`
+- `Rack.json`
+- `Chassis.json`
 - `Node.json`
 - `Switch.json`
 - `switch_dim.json`
