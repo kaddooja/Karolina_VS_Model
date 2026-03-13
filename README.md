@@ -56,7 +56,7 @@ Each rack position is calculated as:
 z_position = z_start + rack_index * x_spacing
 
 This ensures that racks are evenly spaced along the **z-axis**.
-
+---
 # Rack-Level JSON Generation
 
 The second script reads the Rack1 sheet and generates a detailed rack structure.
