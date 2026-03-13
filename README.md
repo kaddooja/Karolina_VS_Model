@@ -70,14 +70,19 @@ The rack JSON contains:
    -Type
    -Dimensions
 ### Chassis Dimension Calculation
-The rack height is divided equally among all chassis inside the rack
-chassis_height = rack_height / number_of_chassis
-This ensures that all chassis fit perfectly within the rack without overlapping.
-Vertical Spacing
-y_spacing = chassis_height
-Starting Position
+The rack height is divided equally among all chassis inside the rack  
 
-The coordinate system assumes the center of the rack as origin.
+chassis_height = rack_height / number_of_chassis  
+
+This ensures that all chassis fit perfectly within the rack without overlapping.  
+
+Vertical Spacing  
+
+y_spacing = chassis_height  
+
+Starting Position   
+
+The coordinate system assumes the center of the rack as origin.  
 
 start_y = -rack_height / 2 + chassis_height / 2
 
@@ -86,35 +91,44 @@ Each chassis position is calculated using:
 y_position = start_y + index * y_spacing
 
 This stacks chassis from bottom to top inside the rack.
-Chassis JSON Structure
+### Chassis JSON Structure
 Each chassis contains references to its internal components.
 ### Node Dimension Calculation
-Nodes are placed inside each chassis.
-Their dimensions are derived from the rack and chassis dimensions.
-node_width  = rack_width
-node_height = chassis_height / 2
-node_depth  = rack_depth / 2
-This allows nodes to fit correctly within the chassis.
-### Node Layout Inside Chassis
-Nodes are arranged in a 2 × 2 grid inside the chassis.
+Nodes are placed inside each chassis.  
+
+Their dimensions are derived from the rack and chassis dimensions.  
+
+node_width  = rack_width  
+
+node_height = chassis_height / 2  
+
+node_depth  = rack_depth / 2  
+
+This allows nodes to fit correctly within the chassis.  
+
+### Node Layout Inside Chassis 
+Nodes are arranged in a 2 × 2 grid inside the chassis.  
 ### Switch Layout
 Switches are placed inside the chassis vertically.
 ### Switch Height
-switch_height = chassis_height / 2
-Switch Positions
-Switch1 → y = -switch_height / 2
-Switch2 → y =  switch_height / 2
+switch_height = chassis_height / 2  
+
+Switch Positions  
+
+Switch1 → y = -switch_height / 2  
+
+Switch2 → y =  switch_height / 2  
 
 This allows stacking of two switches inside the chassis.
 
 ### Generated Output Files
 
 Running the scripts generates the following JSON files:
-output.json
-Rack1.1.json
-Chassis1.1.json
-Node.json
-Switch.json
-switch_dim.json
-CDU.json
-IBL.json
+ `output.json`
+- `Rack1.1.json`
+- `Chassis1.1.json`
+- `Node.json`
+- `Switch.json`
+- `switch_dim.json`
+- `CDU.json`
+- `IBL.json`
